@@ -1,0 +1,247 @@
+:root {
+    --white: #ffffff;
+    --green:#78A28D;
+    --light-green:#B8C6BF;
+    --cool-green:#3D7E5E;
+
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.section-title span {
+	color: crimson;
+}
+
+
+body {
+    background-color: var(--light-green);
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--cool-green);
+    color: var(--white);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 {
+    color: var(--white);
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.nav{
+    height:3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+  }
+
+.header nav ul {
+    list-style-type:none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+}
+.nav__item{
+  margin-bottom:var(--white) ;
+}
+.nav__link{
+  position: relative;
+  color: var(--white);
+}
+.nav__link:hover{
+  position: relative;
+}
+.nav__link:hover::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+}
+.nav__logo{
+  color: var(--white);
+}
+
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Hero Section */
+#hero {
+	background-image: url(/Users/miriamsantana/Desktop/Coding/Projects/About-Me/assets/css/IMG_2612.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+#hero::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+#hero .hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#hero h1 {
+	display: block;
+	width: fit-content;
+	position: relative;
+	color: antiquewhite;
+	font-size: 4rem;	
+}
+
+/* End Hero Section */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.About-Me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.Contact-Information {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.Work-Experience {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.Resume {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.About-Me img {
+    max-height: 200px;
+}
+
+.Contact-Information img {
+    max-height: 200px;
+}
+
+.Work-Experience img {
+    max-height: 200px;
+}
+
+.Resume img {
+    max-height: 200px;
+}
+
+.About-Me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.Contact-Information h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.Work-Experience h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.Resume h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
