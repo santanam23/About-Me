@@ -13,4 +13,4 @@ I added a header to my page, along with the flex function
 I also added an image of myself to the start of the page.
 
 
-![](/Users/miriamsantana/Desktop/Coding/Projects/About-Me/assets/css/Screen Shot 2021-12-05 at 7.29.04 PM.png)
+<img scr="/Users/miriamsantana/Desktop/Coding/Projects/About-Me/assets/css/Screen Shot 2021-12-05 at 7.29.04 PM.png" width="100" height="100">
