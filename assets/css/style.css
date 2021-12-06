@@ -177,8 +177,10 @@ img{
 
 .content {
     width: 75%;
-    display: inline-block;
+    text-align: justify;
+    display: table-cell;
     margin-left: 20px;
+
 }
 
 .About-Me {
