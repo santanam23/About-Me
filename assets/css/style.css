@@ -131,7 +131,7 @@ img{
 
 /* Hero Section */
 #hero {
-	background-image: url(./assets/css/IMG_2612.jpg);
+	background-image: url(IMG_2612.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
