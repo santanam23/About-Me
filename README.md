@@ -13,4 +13,7 @@ I added a header to my page, along with the flex function
 I also added an image of myself to the start of the page.
 
 
-<img scr="/Users/miriamsantana/Desktop/Coding/Projects/About-Me/assets/css/image1.png" width="500" height="500">
+<img width="1051" alt="image3" src="https://user-images.githubusercontent.com/94243898/144775503-641be1f0-44df-49e4-a18e-aa1748728964.png">
+<img width="999" alt="image2" src="https://user-images.githubusercontent.com/94243898/144775539-f1ba2114-1a2c-473a-8846-e88abe80ad65.png">
+<img width="1055" alt="Screen Shot 2021-12-05 at 7 29 04 PM" src="https://user-images.githubusercontent.com/94243898/144775551-be3ed425-88bd-4fa0-8cf7-f4838e7ddeaf.png">
+
