@@ -13,3 +13,4 @@ I added a header to my page, along with the flex function
 I also added an image of myself to the start of the page.
 
 
+https://github.com/santanam23/About-Me/blob/main/assets/css/Screen%20Shot%202021-12-05%20at%206.18.40%20PM.png
