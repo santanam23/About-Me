@@ -13,4 +13,3 @@ I added a header to my page, along with the flex function
 I also added an image of myself to the start of the page.
 
 
-
