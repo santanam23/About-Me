@@ -131,7 +131,7 @@ img{
 
 /* Hero Section */
 #hero {
-	background-image: url(/Users/miriamsantana/Desktop/Coding/Projects/About-Me/assets/css/IMG_2612.jpg);
+	background-image: url(./assets/css/IMG_2612.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
