@@ -20,6 +20,8 @@
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
+  padding-bottom: 20px;
+  width: 50%;
 }
 
 .section-title span {
@@ -66,16 +68,19 @@ body {
     font-weight: 600;
   }
 
-.header nav ul {
-  list-style-type:none;
-	position: relative;
-	display: flex;
-}
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
 
-.header nav ul li a {
-    display: inline-block;
-    margin-left: 25px;
-}
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight:bolder;
+    font-size: 1.55vw;
+  }
 
 .nav_item{
   margin-bottom:var(--white) ;
@@ -259,6 +264,9 @@ img{
 
 .footer h2 {
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
