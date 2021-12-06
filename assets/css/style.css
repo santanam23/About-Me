@@ -176,11 +176,10 @@ img{
 }
 
 .content {
-    width: 75%;
-    text-align: justify;
-    display: table-cell;
-    margin-left: 20px;
-
+  font-size: 55px;
+  display: inline-block;
+  padding: 0 100px 20px 100px;
+  margin: 0 auto 30px auto;
 }
 
 .About-Me {
