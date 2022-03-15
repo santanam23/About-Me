@@ -188,7 +188,7 @@ color: antiquewhite;
 .About-Me {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  min-height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color: var(--green);
   color: var(--dark-green);
@@ -198,7 +198,7 @@ color: antiquewhite;
 .Contact-Information {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  min-height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 20px;
   background-color: var(--green);
@@ -209,7 +209,7 @@ color: antiquewhite;
 .Porfolio-Samples {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  min-height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 20px;
   background-color: var(--green);
@@ -220,7 +220,7 @@ color: antiquewhite;
 .Resume {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  min-height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color: var(--green);
   color: var(--dark-green);
@@ -228,19 +228,19 @@ color: antiquewhite;
 }
 
 .About-Me img {
-  max-height: 200px;
+  height: 200px;
 }
 
 .Contact-Information img {
-  max-height: 200px;
+  height: 200px;
 }
 
 .Porfolio-Samples img {
-  max-height: 200px;
+  height: 200px;
 }
 
 .Resume img {
-  max-height: 200px;
+  height: 200px;
 }
 
 .About-Me h2 {
