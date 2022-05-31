@@ -3,13 +3,17 @@
   --green:#78A28D;
   --light-green:#B8C6BF;
   --cool-green:#3D7E5E;
---dark-green: #2A302F;
+  --dark-green: #2A302F;
 
 }
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-title {
@@ -35,7 +39,6 @@ body {
 
 .header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: var(--cool-green);
   color: var(--white);
   display: flex;
@@ -56,7 +59,6 @@ body {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 25px;
 }
 
@@ -185,64 +187,56 @@ color: antiquewhite;
   border-style:solid; 
   border-color:#052d13;
   padding: 1em;
+  letter-spacing: 1px;
 }
 
 .About-Me {
   margin-bottom: 20px;
   padding: 50px;
   min-height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color: var(--green);
   color: var(--dark-green);
-  text-align:justify;
 }
 
 .Contact-Information {
   margin-bottom: 20px;
   padding: 50px;
   min-height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 20px;
   background-color: var(--green);
   color: var(--dark-green);
-  text-align:justify;
 }
 
 .Porfolio-Samples {
   margin-bottom: 20px;
   padding: 50px;
   min-height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 20px;
   background-color: var(--green);
   color: var(--dark-green);
-  text-align:justify;
 }
 
 .Resume {
   margin-bottom: 20px;
   padding: 50px;
   min-height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color: var(--green);
   color: var(--dark-green);
-  text-align:justify;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
-.About-Me img {
-  height: 200px;
+.gallery:hover {
+  border: 1px solid #777;
 }
 
-.Contact-Information img {
-  height: 200px;
-}
-
-.Porfolio-Samples img {
-  height: 200px;
-}
-
-.Resume img {
-  height: 200px;
+.gallery img {
+  width: 100%;
+  height: auto;
 }
 
 .About-Me h2 {
