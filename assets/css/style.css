@@ -176,9 +176,11 @@ color: antiquewhite;
 }
 
 .content-section {
-  display:contents;
+  display:flex;
+  flex: content;
+  flex-direction: column;
   justify-content: center;
-  text-align:justify;
+  align-items: stretch;
   border:3px; 
   border-style:solid; 
   border-color:#052d13;
