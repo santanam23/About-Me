@@ -220,7 +220,7 @@ color: antiquewhite;
   color: var(--dark-green);
 }
 
-.Contact-Information {
+.Contact-Me {
   margin-bottom: 20px;
   padding: 50px;
   min-height: 300px;
@@ -266,7 +266,7 @@ color: antiquewhite;
   font-size: 36px;
 }
 
-.Contact-Information h2 {
+.Contact-Me h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -338,7 +338,7 @@ footer h2, footer div {
 .About-Me{
   flex: 0 70%;
 }
-.Contact-Information{
+.Contact-Me{
   flex: 0 70%;
 }
 .Porfolio-Samples{
